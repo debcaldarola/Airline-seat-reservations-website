@@ -1,0 +1,150 @@
+html, body, .container{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.default {
+    font-family: "Bookman Old Style", sans-serif;
+    background-color: cornsilk;
+}
+
+.header-logo {
+    height: 59px;
+    width: 98px;
+}
+
+.disabled-cookies {
+    text-decoration: underline overline dotted darkred;
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkred;
+}
+
+.registration-failed {
+    color: darkred;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.signup {
+    width: 40%;
+    float: top;
+    margin: auto;
+    background-color: coral;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup-header {
+    color: cornsilk;
+    font-weight: bold;
+    font-size: large;
+}
+
+.signup-button {
+    background: cornsilk;
+    color: coral;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-button:hover {
+    color: black;
+}
+
+.wrapper .text{
+    position:relative;
+    visibility:hidden;
+    font-size: 9px;
+    font-style: normal;
+    color: darkred;
+}
+
+.wrapper:hover .text {
+    visibility: visible;
+}
+
+.signup-form {
+    padding: 10px;
+}
+
+.table-form {
+    border: 1px solid transparent;
+    margin: 0 auto;
+}
+
+.user-loggedin {
+    font-size: large;
+    color: darkred;
+}
+
+.box-msg {
+    padding: 10px;
+    width: 60%;
+    height: 50px;
+}
+
+.success {
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+}
+
+.failure {
+    background-color: indianred;
+    color: darkred;
+    border: 2px solid darkred;
+}
+
+.flight-container {
+    margin: 0 auto;
+}
+.flight {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.home-button {
+    background: coral;
+    color: cornsilk;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.home-button:hover {
+    color: black;
+}
+
+.reservations {
+    border: 1px solid transparent;
+    margin: 0 auto;
+    font-size: x-large;
+    padding: 40px 40px;
+}
+
+.res_td {
+    padding: 30px 30px;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    background-color: coral;
+    color: cornsilk;
+    text-align: center;
+    padding: 20px;
+}

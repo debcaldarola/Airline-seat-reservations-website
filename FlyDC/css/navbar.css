@@ -1,0 +1,28 @@
+/*Vertical navigation bar*/
+.nav_bar {
+    font-family: "Bookman Old Style", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+ul {
+    list-style-type: none;  /*remove bullet points*/
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+li a {
+    display: block;     /*whole area is clickable, not just the text*/
+    width: 80%;
+    padding: 15px 45px;
+    color: cornsilk;
+    text-decoration: none;
+    background-color: coral;
+}
+
+li a:hover {
+    color: coral;
+    background-color: cornsilk;
+}

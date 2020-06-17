@@ -1,0 +1,66 @@
+/*Homepage header*/
+header {
+    background-color: coral;
+    font-size: 1.8rem;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome {
+    text-align: right;
+    padding: 15px;
+    font-style: normal;
+}
+
+h1 {
+    color: cornsilk;
+}
+
+/*Homepage main content*/
+.column {
+    overflow: auto;
+    float: left;
+}
+
+.column.side {
+    width: 20%;
+}
+
+.column.middle {
+    width: 60%;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.welcome-user {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#flight-info {
+    font-size: x-large;
+}
+
+#stat {
+    margin: 0 auto;
+}
+
+#buttons {
+    float: top;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
