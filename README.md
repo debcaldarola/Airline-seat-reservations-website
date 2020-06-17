@@ -1,6 +1,7 @@
 # Airline Seat Reservations Website
 <img src="FlyDC/images/airplane.png" width="25%" height="25%" align="right">
-## Simple website for managing seat reservations on an airplane
+
+### _Simple website for managing seat reservations on an airplane_
 
 * Homepage: seat map and relative information (total number of seats and subdivision into purchased, reserved and free ones). Each seat is associated to a color:
   * _green_: free;
